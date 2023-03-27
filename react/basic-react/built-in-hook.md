@@ -97,7 +97,7 @@ setUser(prevUser => ({ ...prevUser, [name]: value }));
 ```
 Chúng ta phải tạo ra 1 clone object để React biết rằng có sự thay đổi trạng thái, ngược lại React sẽ không có phép so sánh dữ liệu cùng một Object trước và sau, và state sẽ không được cập nhật.
 
-# Best practice khi sử dụng useEffect
+### Best practice khi sử dụng useEffect
 
 Dưới đây là ví dụ về việc sử dụng Axios và useEffect để lấy dữ liệu người dùng, các bạn có thể sử dụng fetch thay thế.
 
@@ -139,3 +139,12 @@ Chú ý các vấn đề sau khi sử dụng useEffect:
 - **Gộp/Tách logic**: Cần cân nhắc khi tách logic trong useEffect ra làm các hook riêng biệt. Đôi lúc sẽ rất hiệu quả để quản lý code, nhưng có thể gây tình trạng re-render nhiều lần, nếu mỗi hook lại thay đổi state.
 - **Hạn chế tác động đến DOM**: Nếu bạn muốn sử dụng hook useEffect để thao tác trực tiếp với DOM, hãy đảm bảo rằng bạn hạn chế tác động đến DOM càng ít càng tốt. Thay vào đó, hãy sử dụng các thư viện hoặc công cụ khác như react-router hoặc redux để quản lý state của component.
 - **Sử dụng useCallback để optimize**: Nếu bạn sử dụng hàm callback trong hook useEffect và hàm callback đó có dependencies, hãy sử dụng hook useCallback để optimize lại hàm đó và giảm thiểu sự render lại của component.
+
+### useContext
+### useReducer
+### useCallback
+### useMemo
+### useRef
+### useImperativeHandle
+### useLayoutEffect
+### useDebugValue
