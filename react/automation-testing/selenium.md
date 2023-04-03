@@ -8,8 +8,6 @@ Chi tiết tài liệu [ở đây](https://www.selenium.dev/)
 - [Selenium IDE](https://selenium.dev/selenium-ide/)
 - [Selenium Grid](https://www.selenium.dev/documentation/grid/)
 
-Hiện tại SBC đang sử dụng Selenium để test một số tính năng frontend quan trọng.
-
 Selenium hiện tại hỗ trợ:
 - Java
 - Python
@@ -18,8 +16,6 @@ Selenium hiện tại hỗ trợ:
 - JavaScript
 - Kotlin
 
-Dưới đây là một số ví dụ sử dụng ngôn ngữ Java.
-
 Các IDE có thể dùng là:
 - Visual Code
 - IntelliJ IDEA
@@ -27,6 +23,9 @@ Các IDE có thể dùng là:
 - NetBean
 
 Đề xuất sử dụng Visual Code vì Free và dễ dùng.
+
+
+Dưới đây là một số ví dụ sử dụng ngôn ngữ Java.
 
 # Examples
 - Hello World
@@ -47,7 +46,7 @@ public class HelloSelenium {
 }
 
 ```
-- Ví dự để mở trình duyệt và tìm từ khóa trên Google
+- Mở trình duyệt và tìm từ khóa trên Google
 ```
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
