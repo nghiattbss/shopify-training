@@ -1,4 +1,4 @@
-# Selenimum là gì
+# Selenium là gì
 Selenium Testing Framework là một công cụ tự động hóa thử nghiệm phần mềm dùng để kiểm tra ứng dụng web trên nhiều trình duyệt khác nhau và nền tảng hệ điều hành khác nhau. Selenium Testing Framework cung cấp một giao diện đơn giản để thao tác với trình duyệt web và kiểm tra các yếu tố của trang web, như văn bản, hình ảnh, các trường dữ liệu, nút, form, v.v. Công cụ này hỗ trợ nhiều ngôn ngữ lập trình, cho phép người dùng viết mã thử nghiệm dễ dàng hơn.
 
 Chi tiết tài liệu [ở đây](https://www.selenium.dev/)
