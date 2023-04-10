@@ -3,7 +3,10 @@ Shopify bao gồm tổ hợp rất nhiều thành phần, mỗi thành phần c�
 
 Dưới đây là một số kiến trúc phổ biến 
 
+
+
 # Technologies
+
 
 
 
