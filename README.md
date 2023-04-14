@@ -52,4 +52,4 @@ Nội dung này được biên soạn cho chương trình đào tạo Shopify Fr
 - **Phần 1: React** - Được sử dụng trong 2 tuần đầu phần training kỹ thuật, hướng tới Dev có đủ kỹ năng từ phát triển một React App cho đến tự viết automation testing.
 - **Phần 2: Shopify tech stack** - là phần nâng cao, dùng cho 2 tuần cuối phần training kỹ thuật, đòi hỏi phải chắc kiến thức từ 2 tuần đầu. Phần này hướng dev tới việc biết phát triển các loại Shopify App khác nhau, với các kỹ thuật lập trình mà Shopify cung cấp. 
 
-Nếu các bạn có muốn trở thành Shopify Developer tại BSS. Vui lòng liên hệ tại đây...
+Nếu các bạn có muốn trở thành Shopify Developer tại BSS. Vui lòng liên hệ [tại đây](https://bssgroup.vn/tuyen-dung/).
