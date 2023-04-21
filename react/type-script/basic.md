@@ -4,6 +4,70 @@ TypeScript là một ngôn ngữ lập trình mã nguồn mở, được phát t
 
 Tài liệu chi tiết [tại đây](https://www.typescriptlang.org/)
 
+# Cấu hính tsconfig.json
+
+`tsconfig.json` là một tệp cấu hình TypeScript được sử dụng để chỉ định cài đặt cho trình biên dịch TypeScript. Nó cho phép bạn tùy chỉnh cách TypeScript được biên dịch và cung cấp cho trình biên dịch một số thông tin về dự án.
+
+Dưới đây là một số cách sử dụng tsconfig.json:
+
+- Thiết lập môi trường:
+```
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
+
+```
+Trong đó:
+
+    - "target" xác định phiên bản JavaScript mà TypeScript nên tạo ra.
+    - "module" chỉ định loại module được sử dụng trong dự án.
+    - "lib" liệt kê các thư viện được sử dụng trong dự án.
+    - "outDir" chỉ định thư mục đầu ra.
+    - "include" chỉ định các tệp TypeScript được bao gồm trong dự án.
+
+- Khai báo các loại dữ liệu tùy chỉnh:
+```
+{
+  "compilerOptions": {
+    "typeRoots": ["./typings"],
+    "types": ["node", "lodash"]
+  }
+}
+
+```
+Trong đó:
+
+    - "typeRoots" chỉ định đường dẫn đến các thư mục chứa các tệp khai báo tùy chỉnh.
+    - "types" chỉ định các loại khai báo được sử dụng trong dự án.
+
+- Thiết lập cho dự án React:
+```
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+}
+
+```
+Trong đó:
+
+    - "jsx" xác định loại JSX được sử dụng.
+    - "strict" bật chế độ kiểm tra cấu trúc dữ liệu tĩnh.
+    - "esModuleInterop" bật tính năng tương thích với CommonJS và ES Modules.
+
+Ngoài ra, có thể sử dụng tsconfig.json để thiết lập nhiều cài đặt khác nhau cho dự án, như quản lý phiên bản, quản lý cấu hình webpack, tối ưu hóa code, ...
+
+Tài liệu chi tiết hơn có thể đọc [ở đây](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
 # Code examples:
 - Hello Word
 ```
