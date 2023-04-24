@@ -50,3 +50,5 @@ Lưu ý rằng khi xử lý conflict, bạn nên chọn sửa đổi nào là đ
 
 - Khi đặt tên nhánh (branch), nên đặt theo quy tắc: loại_task/mã_số_task. Ví dụ: feature/dashboard-1234, bugfix/dashboard-1235
 - Khi commit: message phải mô tả ngắn gọn ý nghĩa đoạn code đã commit.
+
+Chi tiết sẽ được training trong quá trình on-job training.
